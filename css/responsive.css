@@ -1,3 +1,137 @@
+@media only screen and (min-width:321px) and (max-width: 768px) {
+    section {
+        margin-bottom: 40px;
+    }
+    .container {
+        max-width: 768px;
+    }
+
+    nav {
+        width: 100%;
+        text-align: center;
+        height: 60px;
+    }
+    .site-title {
+        font-size: 22px;
+    }
+
+    .hero-part {
+        flex-direction: column;
+    }
+
+    .top-text {
+        order: 2;
+        align-items: center;
+    }
+
+    .big-text {
+        font-size: 28px;
+        line-height: 42px;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .common-description {
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        padding: 0 10px;
+        margin: 0 0 10px 0;
+    }
+
+    .top-btn {
+        margin: 0px auto;
+    }
+
+    .top-image img {
+        order: 1;
+        width: 300px;
+        height: 300px;
+    }
+
+    .common-description {
+        width: 400px;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        padding: 0 10px;
+    }
+    
+    .company-icons {
+        grid-template-columns: repeat(4, 1fr);
+        padding: 10px;
+        grid-row-gap: 10px;
+        justify-items: center;
+    }
+    
+    .company-icons .icon,
+    img {
+        width: 70px;
+    }
+
+    .cards-heading {
+        font-size: 18px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 30px;
+    }
+
+    .see-more button {
+        padding: 20px 0;
+        padding-right: 30px;
+    }
+
+    .feature {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .feature-image {
+        order: 2;
+        justify-content: center;
+    }
+
+    .feature-image img {
+        width: 280px;
+        /* margin: 0px auto; */
+    }
+
+    .feature-details {
+        width: 100%;
+        order: 1;
+        align-items: center;
+    }
+
+    .feature-text {
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .feature-btn {
+        margin-bottom: 30px;
+    }
+
+    .footer-text h1 {
+        font-size: 16px;
+    }
+
+    .footer-text P {
+        font-size: 12px;
+    }
+
+    .social-icon {
+        font-size: 12px;
+        width: 120px;
+    }
+
+}
+
+
+
 @media only screen and (max-width: 320px) {
     section {
         margin-bottom: 30px;

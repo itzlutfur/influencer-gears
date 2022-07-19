@@ -82,8 +82,6 @@ nav {
     line-height: 70px;
 }
 
-
-
 .common-description {
     margin: 16px 0;
     font-weight: 600;
@@ -184,6 +182,8 @@ nav {
 .rating span {
     color: var(--rating-number);
 }
+
+
 
 .product-description {
     font-weight: 700;
