@@ -1,0 +1,125 @@
+@media only screen and (max-width: 320px) {
+    section {
+        margin-bottom: 30px;
+    }
+
+    .container {
+        width: 320px;
+    }
+
+    nav {
+        width: 100%;
+        text-align: center;
+        height: 45px;
+    }
+
+    .site-title {
+        font-size: 16px;
+    }
+
+    .hero-part {
+        flex-direction: column;
+    }
+
+    .top-text {
+        order: 2;
+    }
+
+    .big-text {
+        font-size: 28px;
+        line-height: 42px;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .common-description {
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .top-btn {
+        margin: 0px auto;
+    }
+
+    .top-image img {
+        order: 1;
+        width: 257px;
+        height: 257px;
+    }
+
+    .company-icons {
+        grid-template-columns: repeat(4, 1fr);
+        padding: 10px;
+        grid-row-gap: 10px;
+        justify-items: center;
+    }
+
+    .company-icons .icon,
+    img {
+        width: 50px;
+    }
+
+    .cards-heading {
+        font-size: 16px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 15px;
+    }
+
+    .see-more button {
+        padding: 20px 0;
+        padding-right: 10px;
+    }
+
+    .feature {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .feature-image {
+        order: 2;
+        justify-content: center;
+    }
+
+    .feature-image img {
+        width: 280px;
+        /* margin: 0px auto; */
+    }
+
+    .feature-details {
+        width: 100%;
+        order: 1;
+        align-items: center;
+    }
+
+    .feature-text {
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .feature-btn {
+        margin-bottom: 30px;
+    }
+
+
+
+
+    .footer-text h1 {
+        font-size: 16px;
+    }
+
+    .footer-text P {
+        font-size: 12px;
+    }
+
+    .social-icon {
+        font-size: 12px;
+        width: 120px;
+    }
+}
