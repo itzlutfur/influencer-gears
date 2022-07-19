@@ -1,0 +1,258 @@
+/* Font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+
+/*----------------
+ Colour variable 
+------------------*/
+:root {
+    --site-title: #3A3A3A;
+    --description: #787885;
+    --card-title: #18191F;
+    --rating-number: #5E6366;
+    --rating-icon: #FB8200;
+    --button: #E02C6D;
+    --button-text: #FFFFFF;
+    --primary: #FFFFFF;
+    --footer: #0A0826;
+}
+
+/*-------------------
+    common style 
+ -------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    ;
+}
+
+body {
+    background-color: var(--primary);
+    font-family: 'Poppins', sans-serif;
+}
+
+main,
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+
+.container {
+    width: 1044px;
+}
+
+nav {
+    display: flex;
+    height: 70px;
+    align-items: center;
+}
+
+.site-title {
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--site-title);
+}
+
+/*-------------------
+     Hero Section 
+--------------------*/
+
+.hero-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.big-text {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 70px;
+}
+
+.top-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.common-description {
+    margin: 16px 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--description);
+}
+
+.top-image {
+    width: 440px;
+    height: 414px;
+}
+
+.top-btn {
+    width: 195px;
+    height: 45px;
+    border-radius: 40px;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--primary);
+    border: 0;
+    background-color: var(--button);
+}
+
+.company-icons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-top: 1px solid rgba(128, 128, 128, 0.193);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.193);
+}
+
+.cards-heading {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 30px;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 45px;
+}
+
+.card {
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+    width: 100%;
+    height: 256px;
+}
+
+
+.product-title {
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.price {
+    font-weight: 400;
+    font-size: 24px;
+    padding: 5px 0;
+}
+
+.rating {
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.filled {
+    color: var(--rating-icon);
+}
+
+.empty {
+    color: rgba(128, 128, 128, 0.364);
+}
+
+.rating span {
+    color: var(--rating-number);
+}
+
+.product-description {
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--description);
+}
+
+.see-more {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.see-more button {
+    padding: 40px 0;
+    background-color: transparent;
+    border: 0;
+    font-size: 16px;
+    color: var(--button);
+    font-weight: 600;
+}
+
+.feature {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.feature-image img {
+    width: 400px;
+}
+
+.feature-details {
+    width: 600px;
+}
+
+.feature-text {
+    font-weight: 700;
+    font-size: 38px;
+}
+
+.feature-btn {
+    background-color: var(--button);
+    color: var(--primary);
+    width: 155px;
+    height: 44px;
+    border: 0;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+footer {
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    background-color: var(--footer);
+    color: var(--primary);
+}
+
+.footer-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-text h1 {
+    padding: 5px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.footer-text P {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.social-icon {
+    font-size: 16px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social-icon a {
+    padding: 10px;
+    color: var(--primary);
+}
